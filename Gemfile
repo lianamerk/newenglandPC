@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+# Specify Ruby version
+ruby ">= 3.2"
+
 gem "jekyll", "~> 4.3"
 gem "minima", "~> 2.5"
 
