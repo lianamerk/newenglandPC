@@ -1,7 +1,7 @@
 title: New England Postcard Club
 description: Official website of New England Postcard Club
 baseurl: "/newenglandPC"
-url: "https://yourusername.github.io"
+url: "https://lianamerk.github.io"
 
 # Build settings
 markdown: kramdown
@@ -9,6 +9,10 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+# Include files
+include:
+  - header.png
 
 # Exclude from processing
 exclude:
@@ -19,3 +23,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - .github/
